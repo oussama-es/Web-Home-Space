@@ -1,0 +1,23 @@
+<html>
+
+<center>
+
+<h3 style="color: blue;">Add Departement</h3>
+    <form  action="/addprof" method="post">
+
+        <label>Depatement Id</label> <br>
+        <input style="border: 2; border-style: groove; border-color: blue;" type="number" name="dep_id"/><br>
+        <label>Prof Name</label><br>
+        <input style="border: 2; border-style: groove; border-color: blue;" type="text" name="prof_name"/><br>
+        <label>Prof Email</label><br>
+        <input style="border: 2; border-style: groove; border-color: blue;" type="text" name="prof_email"/>
+        <br><br>
+        <input style="color: green" type="submit" value="Save"/>
+
+    </form>
+    <p style="color: red;">{{error_addprof}}</p>
+
+
+</center>
+
+</html>

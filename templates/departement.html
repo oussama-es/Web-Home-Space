@@ -1,0 +1,7 @@
+
+<h2>departement : {{ name }}</h2>
+<ul>
+  {% for prof in profs %}
+     <li>{{ prof.name }}:{{ prof.email }}</li>
+  {% endfor %}
+</ul>
